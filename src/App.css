@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+/*--NAVBAR----*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 40px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-icons{
+    margin-right:10px;
+  
+}
+/*-BANNER--*/
+.section{
+    display: flex;
+   align-items: center;
+}
+.banner{
+    background-color: #F0F0F2;
+}
+.banner-txt h1{
+    font-size: 96px;
+    color: #0b1c39;
+}
+.banner-txt p{
+    font-size: 17px;
+    color: rgb(88, 87, 87);
+}
+.btn1{
+    padding: 10px 25px;
+    border: none;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: rgb(88, 87, 87);
+    color: white;
+}
+/*-ARRIVALS---*/
+.arrivals{
+    text-align: center;
+    padding: 100px;
+}
+.arrivals h3,h2{
+    margin: 15px 0;
+}
+.arrivals img{
+    width: 100%;
+    object-fit: cover;
+}
+.arrivals span{
+    color: red;
+}
+/*--GALERY--*/
+.galery img{
+    width: 100%;
+    object-fit: cover;
+}
+/*--POPULAR--*/
+.popular{
+    text-align: center;
+    padding: 50px;
+}
+.poplar h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.popular p{
+    font-size: 24px;
+}
+.popular span{
+    font-size: 18px;
+    color: rgb(97, 95, 95);
+}
+.popular h4{
+    color: rgb(97, 95, 95);
+}
+.btn2{
+    padding: 15px 25px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(255,32,32);
+    color: white;
+    font-weight:bold;
+    width: 250px;
+}
+/*-CHOICE--*/
+.choice{
+    padding:0 80px;
+}
+.choive img{
+    width: 100%;
+    object-fit: cover;
+}
+.choice .txt{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.choice h2{
+    font-size: 56px;
+}
+.choice p{
+    font-size: 17px;
+    color: rgb(133, 130, 130);
+}
+.last{
+ display:flex;
+ justify-content: space-between;
+ padding: 30px;
+}
+
+/*-ADMIN---*/
+.admin{
+    text-decoration: none;
+    border:2px solid brown;
+    color: brown;
+    padding: 10px 20px;
+}
+.admin:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s all;
+}
+/*---ADD--*/
+.add-btn{
+    text-decoration: none;
+    border:2px solid brown;
+    color: brown;
+    padding: 5px 10px;
+}
+.add-btn:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s all;
+}
+.delete-btn{
+    text-decoration: none;
+    border:2px solid brown;
+    color: brown;
+    padding: 5px 10px;
+
+}
+.delete-btn:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s all;
+}
+.submit-btn{
+    text-decoration: none;
+    color: brown;
+    padding: 5px 10px;
+    width: 200px;
+    margin: 0 auto;
+    border: none;
+    
+}
+.add{
+ border-radius: 10px;
+  margin: 0 auto;
+  background-color: brown;
+  color: white;
+  width: 50%;
+  padding: 30px;
+}
+.add form{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+form input{
+    border: none;
+}
+/*--add--*/
+table,th,td{
+    border: 2px solid black;
+}
+
+/*----FOOTER---*/
+.dropdown{
+    position: relative;
+}
+.dropdown-item{
+    position: absolute;
+}
+
+.dropdown-item li{
+    display: none;
+    font-weight: bold;
+    color: brown;
+}
+.dropdown:hover li{
+    display: block;
+
+}
+
+@media(max-width: 1200px) {
+    .watch-img{
+        display: none;
+    }
+    nav ul li{
+        display: none;
+    }
+  }
